@@ -7,7 +7,7 @@ NICPROV requires two machines---secure hardware device and host machine---connec
 We use NVIDIA BLUEFIELD-2, a commercial data processing unit (DPU) product, as our secure hardware. BLUEFIELD-2 integrates a 16-lane PCIe Gen4.0 switch, and eight 64-bit Armv8 A72 cores on a single chip. It has 16 GB of onboard DDR4 memory, 64 GB of eMMC memory, and a powerful DMA engine.
 
 ### Pre-requisites
-To effectively use BLUEFIELD-2, you should install a development kit, DOCA, on the host mahcnine. The install procedures are as follows: 
+To effectively use BLUEFIELD-2, you should install the development kit, DOCA, on the host mahcnine. The install procedures are as follows: 
 
 <https://docs.nvidia.com/doca/sdk/nvidia+doca+installation+guide+for+linux/index.html#src-2654401500_id-.NVIDIADOCAInstallationGuideforLinuxv2.7.0-InstallingSoftwareonHost>
 
