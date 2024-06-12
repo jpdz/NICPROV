@@ -14,7 +14,7 @@ Please also make sure the full DOCA image on BlueField-2 is upgraded as follows:
 ### Installation Instructions
 For host machine, you should compile and install the kernel module first
 ```shell
-make driver
+make 
 sudo insmod scap.ko
 ```
 For device, the project is constructed by meson, you can find a executable file called 'doca_dma_copy' in project build directory.
