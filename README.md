@@ -12,12 +12,12 @@ To effectively use BLUEFIELD-2, you should install a development kit, DOCA, on t
 Please also make sure the full DOCA image on BlueField-2 is upgraded as follows: https://docs.nvidia.com/doca/sdk/nvidia+doca+installation+guide+for+linux/index.html#src-2654401500_id-.NVIDIADOCAInstallationGuideforLinuxv2.7.0-InstallingSoftwareonDPU
 
 ### Installation Instructions
-For host machine, you should compile and install the kernel module first
+For host machine, you can compile and install the kernel module as follows
 ```shell
 make 
 sudo insmod scap.ko
 ```
-For device, the project is constructed by meson, you can find a executable file called 'doca_dma_copy' in project build directory.
+For device, the project is constructed by meson, you can generate the executable file 'doca_dma_copy' in project build directory as follows
 ```device shell
 meson build
 ninja -C build
